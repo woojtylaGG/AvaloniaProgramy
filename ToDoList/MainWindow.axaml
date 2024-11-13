@@ -7,5 +7,11 @@
         Title="ToDoList">
         <StackPanel>
                 <TextBox x:Name="NewTaskDescription" Width="300" Margin="10"/>
+                <Button Content="Add task" Click="AddTask_Click" Width="100" Margin="10"/>
+                <ComboBox x:Name="FilterComboBox" Width="200" Margin="10">
+                        <ComboBoxItem Content="All" IsSelected="True"/>
+                        <ComboBoxItem Content="Done"/>
+                        <ComboBoxItem Content="To do"/>
+                </ComboBox>
         </StackPanel>
 </Window>
