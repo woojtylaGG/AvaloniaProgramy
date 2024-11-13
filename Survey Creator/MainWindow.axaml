@@ -5,5 +5,11 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Survey_Creator.MainWindow"
         Title="Survey_Creator">
-    Welcome to Avalonia!
+        <StackPanel>
+                <TextBox x:Name="QuestionTextBox" Watermark="Enter your question here" />
+                <RadioButton x:Name="SingleChoiceRadioButton" Content="Single Choice" IsChecked="True" />
+                <RadioButton x:Name="MultipleChoiceRadioButton" Content="Multiple Choice" />
+                <Button Content="Add Question" Click="OnAddQuestionClick" />
+                <ListBox x:Name="QuestionsListBox" />
+        </StackPanel>
 </Window>
