@@ -24,4 +24,12 @@ public partial class MainWindow : Window
             answers.Clear();
         }
     }
+    public void OnAddAnswerClick(object sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        if (!string.IsNullOrWhiteSpace(AnswerTextBox.Text))
+        {
+            answers.Add(new Answer { Text = AnswerTextBox.Text });
+            AnswerTextBox.Clear();
+        }
+    }
 }

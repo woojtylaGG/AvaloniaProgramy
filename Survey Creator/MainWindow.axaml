@@ -11,5 +11,7 @@
                 <RadioButton x:Name="MultipleChoiceRadioButton" Content="Multiple Choice" />
                 <Button Content="Add Question" Click="OnAddQuestionClick" />
                 <ListBox x:Name="QuestionsListBox" />
+                <TextBox x:Name="AnswerTextBox" Watermark="Enter your answer here" />
+                <Button Content="Add Answer" Click="OnAddAnswerClick" />
         </StackPanel>
 </Window>
