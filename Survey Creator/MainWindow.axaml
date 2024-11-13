@@ -14,7 +14,7 @@
                 <ListBox x:Name="QuestionsListBox" />
                 <TextBox x:Name="AnswerTextBox" Watermark="Enter your answer here" />
                 <Button Content="Add Answer" Click="OnAddAnswerClick" />
-                <ListBox x:Name="AnswersListBox"/>
+                <ListBox x:Name="AnswersListBox">
                         <ListBox.ItemTemplate>
                                 <DataTemplate DataType="{x:Type local:Answer}">
                                         <StackPanel Orientation="Horizontal">
@@ -23,6 +23,7 @@
                                         </StackPanel>
                                 </DataTemplate>
                         </ListBox.ItemTemplate>
+                </ListBox>
                 <Button Content="Save Survey" Click="OnSaveSurveyClick" />
         </StackPanel>
 </Window>

@@ -1,5 +1,6 @@
 using Avalonia.Controls;
 using System.Collections.ObjectModel;
+using System.IO;
 namespace Survey_Creator;
 
 public partial class MainWindow : Window
@@ -32,6 +33,22 @@ public partial class MainWindow : Window
             AnswerTextBox.Clear();
         }
     }
+    public void OnSaveSurveyClick(object sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        string fileName = $"Survey.txt";
+        using (StreamWriter writer = new StreamWriter(fileName))
+        {
+            foreach (var question in questions)
+            {
+                writer.WriteLine(question);
+                foreach (var answer in answers)
+                {
+                    writer.WriteLine($"- {answer.Text} (Checked: {answer.IsChecked})");
+                }
+            }
+        }
+    }
+    
 }
 public class Answer
 {
