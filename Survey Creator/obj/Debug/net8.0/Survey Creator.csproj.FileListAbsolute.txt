@@ -1,0 +1,68 @@
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Survey Creator.exe
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Survey Creator.deps.json
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Survey Creator.runtimeconfig.json
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Survey Creator.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Survey Creator.pdb
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Base.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Controls.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.DesignerSupport.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Dialogs.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Markup.Xaml.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Markup.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Metal.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.MicroCom.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.OpenGL.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Vulkan.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Controls.ColorPicker.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Controls.DataGrid.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Desktop.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Diagnostics.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Fonts.Inter.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.FreeDesktop.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Native.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Remote.Protocol.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Skia.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Themes.Fluent.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Themes.Simple.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.Win32.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Avalonia.X11.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\HarfBuzzSharp.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\MicroCom.Runtime.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\SkiaSharp.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\Tmds.DBus.Protocol.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\win-arm64\native\av_libglesv2.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\win-x64\native\av_libglesv2.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\win-x86\native\av_libglesv2.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\osx\native\libAvaloniaNative.dylib
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\linux-arm\native\libSkiaSharp.so
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\linux-arm64\native\libSkiaSharp.so
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\linux-x64\native\libSkiaSharp.so
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Survey Creator.csproj.AssemblyReference.cache
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Avalonia\resources
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Survey Creator.GeneratedMSBuildEditorConfig.editorconfig
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Survey Creator.AssemblyInfoInputs.cache
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Survey Creator.AssemblyInfo.cs
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Survey Creator.csproj.CoreCompileInputs.cache
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Survey Creator.sourcelink.json
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Avalonia\Survey Creator.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Avalonia\Survey Creator.pdb
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\refint\Avalonia\Survey Creator.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Survey C.FCDF4934.Up2Date
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Survey Creator.genruntimeconfig.cache
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\ref\Survey Creator.dll
