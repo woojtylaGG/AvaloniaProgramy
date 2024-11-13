@@ -18,4 +18,11 @@ public partial class MainWindow : Window
             NewTaskDescription.Text = string.Empty;
         }
     }
+    private void RemoveTask_Click(object sender, RoutedEventArgs e)
+    {
+        if (sender is Button button && button.Tag is ToDoTask task)
+        {
+            tasks.Remove(task);
+        }
+    }
 }
