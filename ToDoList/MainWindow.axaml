@@ -5,5 +5,7 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="ToDoList.MainWindow"
         Title="ToDoList">
-    TEST
+        <StackPanel>
+                <TextBox x:Name="NewTaskDescription" Width="300" Margin="10"/>
+        </StackPanel>
 </Window>
