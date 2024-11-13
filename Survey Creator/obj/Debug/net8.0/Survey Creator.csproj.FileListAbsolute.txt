@@ -66,3 +66,6 @@ D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\refint\Avalonia\S
 D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Survey C.FCDF4934.Up2Date
 D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Survey Creator.genruntimeconfig.cache
 D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\ref\Survey Creator.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Survey Creator.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\refint\Survey Creator.dll
+D:\RepoGithub\AvaloniaProgramy\Survey Creator\obj\Debug\net8.0\Survey Creator.pdb

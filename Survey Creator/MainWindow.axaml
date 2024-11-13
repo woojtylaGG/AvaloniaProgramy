@@ -2,6 +2,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Survey_Creator"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Survey_Creator.MainWindow"
         Title="Survey_Creator">
@@ -13,5 +14,15 @@
                 <ListBox x:Name="QuestionsListBox" />
                 <TextBox x:Name="AnswerTextBox" Watermark="Enter your answer here" />
                 <Button Content="Add Answer" Click="OnAddAnswerClick" />
+                <ListBox x:Name="AnswersListBox"/>
+                        <ListBox.ItemTemplate>
+                                <DataTemplate DataType="{x:Type local:Answer}">
+                                        <StackPanel Orientation="Horizontal">
+                                                <CheckBox IsChecked="{Binding IsChecked}" />
+                                                <TextBlock Text="{Binding Text}" />
+                                        </StackPanel>
+                                </DataTemplate>
+                        </ListBox.ItemTemplate>
+                <Button Content="Save Survey" Click="OnSaveSurveyClick" />
         </StackPanel>
 </Window>
