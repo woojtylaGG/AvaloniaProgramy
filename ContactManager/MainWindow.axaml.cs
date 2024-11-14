@@ -3,7 +3,6 @@ using System.Collections.ObjectModel;
 using System.Linq;
 
 namespace ContactManager;
-{
     public partial class MainWindow : Window
     {
         private ObservableCollection<Contact> Contacts { get; } = new ObservableCollection<Contact>();
@@ -59,7 +58,23 @@ namespace ContactManager;
             EmailTextBox.Text = string.Empty;
             FavoriteCheckBox.IsChecked = false;
         }
+        
+        private void OnDeleteButtonClick(object sender, Avalonia.Interactivity.RoutedEventArgs e)
+        {
+            if (ContactsListBox.SelectedItem is Contact selectedContact)
+            {
+                Contacts.Remove(selectedContact);
+                ApplyFilterAndSort();
+            }
+        }
     }
-    
-    
-}
+    public class Contact
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Email { get; set; }
+        public bool IsFavorite { get; set; }
+
+        public override string ToString() => $"{FirstName} {LastName} ({PhoneNumber})";
+    }
