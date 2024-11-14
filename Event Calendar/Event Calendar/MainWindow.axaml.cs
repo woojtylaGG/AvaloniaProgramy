@@ -1,29 +1,44 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
-
+using System.Collections.Generic;
 namespace Event_Calendar
 {
     public partial class MainWindow : Window
     {
+        private Dictionary<string, List<string>> events;
         public MainWindow()
         {
             InitializeComponent();
+            events = new Dictionary<string, List<string>>();
             AddEventButton.Click += AddEventButton_Click;
         }
 
         private void AddEventButton_Click(object? sender, RoutedEventArgs e)
         {
             var eventName = EventNameTextBox.Text;
-            if (!string.IsNullOrEmpty(eventName))
+            var selectedDay = (DayOfWeekComboBox.SelectedItem as ComboBoxItem)?.Content.ToString();
+            var isImportant = ImportantCheckBox.IsChecked ?? false;
+            if (!string.IsNullOrEmpty(eventName) && !string.IsNullOrEmpty(selectedDay))
             {
-                if (ImportantCheckBox.IsChecked == true)
+                if (isImportant)
                 {
                     eventName = "[Ważne] " + eventName;
                 }
-                EventsListBox.Items.Add(eventName);
-                EventNameTextBox.Text = string.Empty; 
-                ImportantCheckBox.IsChecked = false; 
+                
+                if (!events.ContainsKey(selectedDay))
+                {
+                    events[selectedDay] = new List<string>();
+                }
+                events[selectedDay].Add(eventName);
+                UpdateEventsListBox(selectedDay);
+                EventNameTextBox.Text = string.Empty;
+                ImportantCheckBox.IsChecked = false;
             }
+        }
+
+        private void UpdateEventsListBox(string dayOfWeek)
+        {
+            EventsListBox.ItemsSource = events[dayOfWeek];
         }
     }
 }
