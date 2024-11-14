@@ -10,5 +10,14 @@
         <TextBox x:Name="LastNameTextBox" Watermark="Last Name" Margin="0,0,0,10" />
         <TextBox x:Name="PhoneNumberTextBox" Watermark="Phone Number" Margin="0,0,0,10" />
         <TextBox x:Name="EmailTextBox" Watermark="Email" Margin="0,0,0,10" />
+        <CheckBox x:Name="FavoriteCheckBox" Content="Favorite" Margin="0,0,0,10"/>
+        <Button x:Name="AddEditButton" Content="Add/Edit Contact" Click="OnAddEditButtonClick" Margin="0,0,0,10"/>
+        <ComboBox x:Name="FilterComboBox" SelectionChanged="OnFilterChanged" Margin="0,0,0,10">
+            <ComboBoxItem Content="All"/>
+            <ComboBoxItem Content="Favorites"/>
+            <StackPanel>
+                
+            </StackPanel>
+        </ComboBox>
     </StackPanel>
 </Window>
