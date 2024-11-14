@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Event Calendar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b028092a8cd7dd553f3919aea66d1ca31bc1ce74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e306e5dcafeb0e77b9cc87bfc8aa8416bc15728")]
 [assembly: System.Reflection.AssemblyProductAttribute("Event Calendar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Event Calendar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

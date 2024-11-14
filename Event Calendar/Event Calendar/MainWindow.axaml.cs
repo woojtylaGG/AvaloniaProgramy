@@ -14,11 +14,15 @@ namespace Event_Calendar
         private void AddEventButton_Click(object? sender, RoutedEventArgs e)
         {
             var eventName = EventNameTextBox.Text;
-
             if (!string.IsNullOrEmpty(eventName))
             {
+                if (ImportantCheckBox.IsChecked == true)
+                {
+                    eventName = "[Ważne] " + eventName;
+                }
                 EventsListBox.Items.Add(eventName);
-                EventNameTextBox.Text = string.Empty;
+                EventNameTextBox.Text = string.Empty; 
+                ImportantCheckBox.IsChecked = false; 
             }
         }
     }
