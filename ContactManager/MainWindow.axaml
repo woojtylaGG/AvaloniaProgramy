@@ -15,9 +15,12 @@
         <ComboBox x:Name="FilterComboBox" SelectionChanged="OnFilterChanged" Margin="0,0,0,10">
             <ComboBoxItem Content="All"/>
             <ComboBoxItem Content="Favorites"/>
+            </ComboBox>
             <StackPanel>
-                
+                <Button x:Name="SortByFirstNameButton" Content="Sort by First Name" Click="OnSortByFirstNameClick" Margin="0,0,10,0"/>
+                <Button x:Name="SortByLastNameButton" Content="Sort by Last Name" Click="OnSortByLastNameClick"/>
             </StackPanel>
-        </ComboBox>
+        <ListBox x:Name="ContactsListBox" Margin="0,0,0,10"/>
+        <Button x:Name="DeleteButton" Content="Delete Contact" Click="OnDeleteButtonClick" Margin="0,0,0,10"/>
     </StackPanel>
 </Window>
